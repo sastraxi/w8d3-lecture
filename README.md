@@ -44,6 +44,7 @@ Your goal is to, in groups, turn a set of requirements into working code that yo
 * where is your data coming from?
   * can you scrape it?
   * can you generate it?
+* http://todomvc.com/ can help you compare technologies
 
 # Putting things together
 * be responsible and communicative with each other always
