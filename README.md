@@ -103,4 +103,5 @@ Your goal is to, in groups, turn a set of requirements into working code that yo
 * [Midterm Project Planning](https://web.compass.lighthouselabs.ca/projects/w4-midterm-proj?day_number=w04d3)
 * [Project Planning Gist](https://gist.github.com/donburks/cea96314bec69ecb5a55) by Don Burks
 * [A framework for modern User Stories](https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9) by Jon Dobrowolski
+* The two-tier webapp demo from lecture: https://github.com/sastraxi/w8d3-demo
 
