@@ -24,7 +24,7 @@ Your goal is to, in groups, turn a set of requirements into working code that yo
   * As a `Buyer` I want to `report a seller` because `they acted fraudulently`
   * As a `Seller` I want to `de-list an item` because `it has been sold`
   * As a `CSR` I want to `email a receipt` because `someone called to ask for it`
-  * As a `User` I want to `change my password` because `I can't find that darn post-it note anywhere`
+  * As a `User` I want to `reset my password` because `I can't find that darn post-it note anywhere`
 * the why contains context that you're going to forget
   * read the above examples without the because `Z` part
   * imagine you're trying to figure out which should be done first
@@ -71,7 +71,8 @@ Your goal is to, in groups, turn a set of requirements into working code that yo
 * balance learning and building
   * pair program when you feel utterly stuck
 
-# Deployment for $0
+# Deployment
+* following [twelve-factor methodology](https://12factor.net/) makes your app easy to deploy anywhere
 * [heroku free tier](https://www.heroku.com/pricing)
   * 10k row limit for [postgres free](https://elements.heroku.com/addons/heroku-postgresql)
   * 496mb limit for [mongodb free](https://elements.heroku.com/addons/mongolab)
@@ -84,17 +85,21 @@ Your goal is to, in groups, turn a set of requirements into working code that yo
   * postgres via [RDS](https://aws.amazon.com/rds/free/)
 * *suggestion*: heroku + netlify for web apps
 
-# Useful libraries
+# Useful JS libraries
+* Express
+  * [cors](https://www.npmjs.com/package/cors)
+  * [Passport](http://www.passportjs.org/)
 * React
   * [redux](https://redux.js.org/)
   * [react-router v4](https://reacttraining.com/react-router/core/guides/philosophy)
   * [styled-components](https://www.styled-components.com/) (good for building user-facing components)
   * [blueprint](https://blueprintjs.com/) (good for building administrative UIs)
-  * [react-pose](https://popmotion.io/pose/) for easy animation  
+  * [react-pose](https://popmotion.io/pose/) for easy animation
+* try searching `<technology> awesome github` for curated lists of libraries and frameworks
+  * e.g. https://github.com/enaqx/awesome-react   
 
 # Resources to help you when you feel lost
 * [Midterm Project Planning](https://web.compass.lighthouselabs.ca/projects/w4-midterm-proj?day_number=w04d3)
 * [Project Planning Gist](https://gist.github.com/donburks/cea96314bec69ecb5a55) by Don Burks
 * [A framework for modern User Stories](https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9) by Jon Dobrowolski
-* try searching `<technology> awesome github` for curated lists of libraries and frameworks
-  * e.g. https://github.com/enaqx/awesome-react
+
