@@ -4,27 +4,6 @@ Welcome to the kick-off session for your final projects here at Lighthouse.
 Your goal is to, in groups, turn a set of requirements into working code that you can demo to the world. The *what*, *why*, and *how* are going to be emphasized in this lecture.
 
 # The *What* and *Why*: User Stories
-* determine a problem you'd like to solve
-  * or a technology you want to explore
-  * or a couple APIs you can mash up to provide value
-  * or a user base you want to serve
-* challenge your assumptions and build the smallest version first
-  * aka the "Minimum Viable Product (MVP)"
-  * example: government project to monitor waste and pollution levels
-  * our goal is years off, but we want our first release earlier
-    * what do we cut?
-* figure out all the things we want to eventually do
-  * these are User Stories
-  * **as a(n) `X` I want to `Y` because `Z`**
-  * X: persona, e.g. `User` or `Moderator` or `Admin` or `Client` or `Buyer` or ...
-  * Y: action, e.g. `ban a user`
-  * Z: catalyst: e.g. `they are spamming`
-* more user story examples
-  * As a `User` I want to `see my online friends` beecause `I want to invite them to the game lobby`
-  * As a `Buyer` I want to `report a seller` because `they acted fraudulently`
-  * As a `Seller` I want to `de-list an item` because `it has been sold`
-  * As a `CSR` I want to `email a receipt` because `someone called to ask for it`
-  * As a `User` I want to `reset my password` because `I can't find that darn post-it note anywhere`
 * the why contains context that you're going to forget
   * read the above examples without the because `Z` part
   * imagine you're trying to figure out which should be done first
@@ -105,3 +84,5 @@ Your goal is to, in groups, turn a set of requirements into working code that yo
 * [A framework for modern User Stories](https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9) by Jon Dobrowolski
 * The two-tier webapp demo from lecture: https://github.com/sastraxi/w8d3-demo
 
+# Things to remember next time you do the lecture
+* actually download the code first
