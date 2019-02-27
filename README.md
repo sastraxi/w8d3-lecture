@@ -26,12 +26,6 @@ The goal is to, in groups, turn a set of requirements into working code that you
   * As a `User` I want to `remove my 2FA` because `my phone is now in tiny pieces`
 * the why contains context that's easy going to forget (and you're going to)
   * read the above examples without the catalyst
-* what should be done first?
-  * 
-* does this feel like a waste of time?
-  * remember, programs only do exactly what we tell them to do
-  * if we can't figure it out, we ca
-  * misunderstand purpose and you'll have to re-write
 * they are a window into how well your group agrees on product vision
 * try force-ranking using a tool like [Trello](https://trello.com)
   * start from the most-important feature and scan down
@@ -88,13 +82,16 @@ There are practically infinite possiblities regarding how to go about building s
    you'll have all the steps you need.
 
 ### Other suggestions:
-
 * work feature-by-feature in branches
   * `git checkout -b <branch-name>`
   * use pull requests to review each others' code and merge into `master`
 * keep secrets out of your repo with [dotenv](https://www.npmjs.com/package/dotenv) 
   * API keys, secrets for signatures / sessions / etc.
   * `.gitignore` your `.env` files!
+* remember, programs only do exactly what we tell them to do
+* avoid the two extremes:
+  * *broken mental models => broken code*
+  * *analysis paralysis => no code at all*
 
 # Working as a team
 * short reward cycles avoid burn-out
@@ -139,4 +136,3 @@ There are practically infinite possiblities regarding how to go about building s
 * https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a
 * [A framework for modern User Stories](https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9) by Jon Dobrowolski
 * The two-tier webapp demo from lecture: https://github.com/sastraxi/w8d3-demo
-
