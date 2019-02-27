@@ -10,7 +10,7 @@ The goal is to, in groups, turn a set of requirements into working code that you
   * ...a group of people who are underserved
 * challenge our assumptions and build the smallest version first
   * aka the "Minimum Viable Product (MVP)"
-  * example: government project to monitor waste and pollution levels
+  * example: a food delivery app (remember the midterm?)
   * our goal is years off, but we want our first release earlier
   * ...what do we cut?
 * figure out all the things we want to eventually do: User Stories
