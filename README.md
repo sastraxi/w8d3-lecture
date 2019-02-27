@@ -21,7 +21,7 @@ The goal is to, in groups, turn a set of requirements into working code that you
   * Y: action, e.g. ``ban a user` or `charge a client` or `mark a module as complete`
   * Z: catalyst: the inciting event; e.g. `they are spamming the forums` or `we made a deal off-platform` or `TinyApp is finally working!`
 * more user story examples
-  * As a `User` I want to `see my online friends` beecause `I want to invite them to the game lobby`
+  * As a `User` I want to `see my online friends` because `I want to invite them to the game lobby`
   * As a `Buyer` I want to `report a seller` because `they acted fraudulently / abusively`
   * As a `Seller` I want to `de-list an item` because `it has been sold / I no longer have it / ...`
   * As a `CSR` I want to `email a receipt` because `someone called to ask for it`
