@@ -49,13 +49,26 @@ The goal is to, in groups, turn a set of requirements into working code that you
 
 # Putting things together
 * be responsible and communicative with each other always
-* build some sort of database diagram once you know the base set of features you will tackle
-  * nouns
-* set up your tech stack as a team
+
+1. Start by building User Stories: use a tool like [Trello](https://trello.org) to add each story as a card.
+2. Build a database diagram.
+   Consider the words being used by your group.
+   hich nouns (`entities`) and verbs (`actions`) are you using?
+3. Decide where your users should experience your product.
+   In a web browser?
+   On their phone as an app?
+   Over SMS, Messenger, Slack...
+   What is going to demo well?
+   * Most importantly, What technologies
+5. Decide how you'll connect your database to your front-end.
+   Will you build controller methods for all of your `actions`?
+   Or write query and mutation resolvers for them with [GraphQL](https://graphql.org/)?
+   There are many different ways to
+   
+4. et up your tech stack as a team
   * basic database structure
   * a basic backend route/routes
     * verbs
-  * frontend that can ask the backend questions
 * everyone contributes to the same repo
   * backend and frontend can (and should) be separate, but keep them in the same git repository
 * work feature-by-feature in branches
@@ -85,9 +98,10 @@ The goal is to, in groups, turn a set of requirements into working code that you
   * deploy via git
 * [AWS free tier](https://aws.amazon.com/free/free-tier/)
   * postgres via [RDS](https://aws.amazon.com/rds/free/)
-* *suggestion*: heroku + netlify for web apps
 
-# Useful JS libraries
+# Useful libraries
+* Rails
+  * https://github.com/markets/awesome-ruby
 * Express
   * [cors](https://www.npmjs.com/package/cors)
   * [Passport](http://www.passportjs.org/)
