@@ -50,35 +50,44 @@ The goal is to, in groups, turn a set of requirements into working code that you
 # Getting down to work
 There are practically infinite possiblities regarding how to go about building software as a team, here's the way I do it lately:
 
-1. Start by building User Stories:
+1. **Start by building User Stories:**
    use a tool like [Trello](https://trello.org) to add each story as a card.
    Who are we helping?
    What do they need help with?
    (Why are existing solutions insufficient?)
 
-2. Build a database diagram.
+2. **Build a database diagram.**
    Consider the words being used by your group.
    hich nouns (`entities`) and verbs (`actions`) are you using?
 
-3. Decide where your users should experience your product.
+3. **Decide where your users should experience your product.**
    In a web browser?
    On their phone as an app?
    Over SMS, Messenger, Slack...
    What is going to demo well?
    What technology are you going to use to build it?
 
-5. Decide how you'll connect your database to your front-end.
-   Will you build RESTful controller methods for all of your `actions`?
+4. **Decide how you'll connect your database to your front-end.**
+   Will you build RESTful controller methods for all of your `actions` using Rails or Express?
    Or maybe your app will use WebSockets?
    Or write query and mutation resolvers for them with [GraphQL](https://graphql.org/)?
 
-6. Set up your tech stack as a team.
+5. **Set up your tech stack as a team.**
    Motivate each other.
-   *Suggestion*: work in one repository.
-   Your backend and frontend can be in separate folders,
+   *Suggestion*: create and work in only one repository.
+   Your backend and frontend can be in separate (project) folders,
    but keep them in the same git repo.
+   
+6. **Record your bootstrap / setup steps.**
+   Be the person your future self wants you to be:
+   when you're setting up your project for the first time,
+   record all the major things you do manually
+   (e.g. creating a database / users, adding test data, etc.).
+   `README.md` in your project folder is a great place for this!
+   The next computer you need to set up your environment on,
+   you'll have all the steps you need.
 
-Some other suggestions:
+### Other suggestions:
 
 * work feature-by-feature in branches
   * `git checkout -b <branch-name>`
