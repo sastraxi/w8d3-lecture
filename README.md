@@ -47,11 +47,14 @@ The goal is to, in groups, turn a set of requirements into working code that you
   * can you generate it?
 * http://todomvc.com/ can help you compare technologies
 
-# Putting things together
-* be responsible and communicative with each other always
+# Getting down to work
+There are practically infinite possiblities regarding how to go about building software as a team, here's the way I do it lately:
 
 1. Start by building User Stories:
    use a tool like [Trello](https://trello.org) to add each story as a card.
+   Who are we helping?
+   What do they need help with?
+   (Why are existing solutions insufficient?)
 
 2. Build a database diagram.
    Consider the words being used by your group.
@@ -69,19 +72,22 @@ The goal is to, in groups, turn a set of requirements into working code that you
    Or maybe your app will use WebSockets?
    Or write query and mutation resolvers for them with [GraphQL](https://graphql.org/)?
 
-6. Set up your tech stack as a team
-  * basic database structure
-  * a basic backend route/routes
-    * verbs
-* everyone contributes to the same repo
-  * backend and frontend can (and should) be separate, but keep them in the same git repository
+6. Set up your tech stack as a team.
+   Motivate each other.
+   *Suggestion*: work in one repository.
+   Your backend and frontend can be in separate folders,
+   but keep them in the same git repo.
+
+Some other suggestions:
+
 * work feature-by-feature in branches
   * `git checkout -b <branch-name>`
   * use pull requests to review each others' code and merge into `master`
 * keep secrets out of your repo with [dotenv](https://www.npmjs.com/package/dotenv) 
+  * API keys, secrets for signatures / sessions / etc.
   * `.gitignore` your `.env` files!
 
-# Getting down to work
+# Working as a team
 * short reward cycles avoid burn-out
 * keep communicating with each other
 * everyone works at their own pace: don't get caught up in comparisons
@@ -118,7 +124,7 @@ The goal is to, in groups, turn a set of requirements into working code that you
 * try searching `<technology> awesome github` for curated lists of libraries and frameworks
   * e.g. https://github.com/enaqx/awesome-react   
 
-# Resources to help you when you feel lost
+# Resources that could help if you feel lost
 * [Midterm Project Planning](https://web.compass.lighthouselabs.ca/projects/w4-midterm-proj?day_number=w04d3)
 * [Project Planning Gist](https://gist.github.com/donburks/cea96314bec69ecb5a55) by Don Burks
 * https://medium.muz.li/red-routes-critical-design-paths-that-make-or-break-your-app-a642ebe0940a
