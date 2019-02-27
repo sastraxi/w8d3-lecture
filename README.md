@@ -1,35 +1,36 @@
 # Final project kick-off
-Welcome to the kick-off session for your final projects here at Lighthouse.
+Welcome to the kick-off session for final projects here at Lighthouse.
 
-Your goal is to, in groups, turn a set of requirements into working code that you can demo to the world. The *what*, *why*, and *how* are going to be emphasized in this lecture.
+The goal is to, in groups, turn a set of requirements into working code that you can demo to the world. The *what*, *why*, and *how* are going to be emphasized in this lecture.
 
 # The *What* and *Why*: User Stories
-* determine a problem you'd like to solve
-  * or a technology you want to explore
-  * or a couple APIs you can mash up to provide value
-  * or a user base you want to serve
-* challenge your assumptions and build the smallest version first
+* determine a problem to solve
+  * ...a technology to explore
+  * ...a couple APIs to mash up; provide some kind of novel value
+  * ...a group of people who are underserved
+* challenge our assumptions and build the smallest version first
   * aka the "Minimum Viable Product (MVP)"
   * example: government project to monitor waste and pollution levels
   * our goal is years off, but we want our first release earlier
-    * what do we cut?
-* figure out all the things we want to eventually do
-  * these are User Stories
-  * **as a(n) `X` I want to `Y` because `Z`**
-  * X: persona, e.g. `User` or `Moderator` or `Admin` or `Client` or `Buyer` or ...
-  * Y: action, e.g. `ban a user`
-  * Z: catalyst: e.g. `they are spamming`
+  * ...what do we cut?
+* figure out all the things we want to eventually do: User Stories
+  * **as a(n) `Persona` I want to `Action` because `Catalyst`**
+  * X: persona, e.g. `User` or `Moderator` or `Admin` or `Client` or `Student` or ...
+  * Y: action, e.g. `invite a user by email` or `ban a user` or `charge a client` or `mark a module as complete`
+  * Z: catalyst: the inciting event; e.g. `I want to play with my friend, who doesn't have an account` or `they are spamming the forums` or `we made a deal off-platform` or `TinyApp is finally working!`
 * more user story examples
   * As a `User` I want to `see my online friends` beecause `I want to invite them to the game lobby`
-  * As a `Buyer` I want to `report a seller` because `they acted fraudulently`
-  * As a `Seller` I want to `de-list an item` because `it has been sold`
+  * As a `Buyer` I want to `report a seller` because `they acted fraudulently / abusively`
+  * As a `Seller` I want to `de-list an item` because `it has been sold / I no longer have it / ...`
   * As a `CSR` I want to `email a receipt` because `someone called to ask for it`
-  * As a `User` I want to `reset my password` because `I can't find that darn post-it note anywhere`
-* the why contains context that you're going to forget
-  * read the above examples without the because `Z` part
-  * imagine you're trying to figure out which should be done first
+  * As a `User` I want to `remove my 2FA` because `my phone is now in tiny pieces`
+* the why contains context that's easy going to forget (and you're going to)
+  * read the above examples without the catalyst
+* what should be done first?
+  * 
 * does this feel like a waste of time?
-  * programs only do what we program them to doeeeee
+  * remember, programs only do exactly what we tell them to do
+  * if we can't figure it out, we ca
   * misunderstand purpose and you'll have to re-write
 * they are a window into how well your group agrees on product vision
 * try force-ranking using a tool like [Trello](https://trello.com)
