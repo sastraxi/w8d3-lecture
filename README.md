@@ -13,7 +13,9 @@ The goal is to, in groups, turn a set of requirements into working code that you
   * example: a food delivery app (remember the midterm?)
   * our goal is years off, but we want our first release earlier
   * ...what do we cut?
-* figure out all the things we want to eventually do: User Stories
+* we should probably cut the least important stuff
+  * ...least important to whom?
+* introducing User Stories: the voice of your software's user base
   * **as a(n) `Persona` I want to `Action` because `Catalyst`**
   * X: persona, e.g. `User` or `Moderator` or `Admin` or `Client` or `Student` or ...
   * Y: action, e.g. `invite a user by email` or `ban a user` or `charge a client` or `mark a module as complete`
